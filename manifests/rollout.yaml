@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
         - name: webserver
-          image: ghcr.io/danutaldea/ci_cd_lab:latest
+          image: ghcr.io/danutaldea/ci_cd_lab@sha256:254d8fafedacdefbd6ec69e2a71ecfba90a79c178db968ce30f2dd15792ef2b9
           ports:
             - containerPort: 8080
           imagePullPolicy: Always
